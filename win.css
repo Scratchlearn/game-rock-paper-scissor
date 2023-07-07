@@ -1,0 +1,133 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&displaye=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+ 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color:#89c15e;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+}
+
+.stars-image {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img123 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-container {
+  text-align: center;
+}
+
+.text-container h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  top: 55rem;
+  color: #fff;
+}
+
+
+  .play-again {
+    position:absolute;
+    top: 33rem;
+  left: 46%;
+  right: 54%;
+  font-size: 0.94rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #6b6b6b;
+  display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  background: #fff;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 0.6rem;
+  
+  }
+  
+  .popupContent {
+    position: absolute;
+    bottom: 40px; /* Adjust as per your requirement */
+    right: 0;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    background-color: #64db09;
+    display: none;
+  }
+  
+  .popupContent.show {
+    display: block;
+  }
+  
+  #closeButton {
+    margin-top: 10px;
+  }
+  
+
+  .rules-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    letter-spacing: 0.1em;
+    font-size: 0.94rem;
+    font-weight: 600;
+    color: #6b6b6b;
+    width: 4rem;
+    height: 2rem;
+    background: #fff;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 0.6rem;
+    text-align: center;
+  }
+
+  .frame-inner {
+    position: absolute;
+    top: 42.19rem;
+    left: 71rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+    box-sizing: border-box;
+    width: 7.44rem;
+    height: 2.5rem;
+  }
+  .rules {
+    position: absolute;
+    top: 42.69rem;
+    left: 72.5rem;
+    font-size: 1.31rem;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
+    width: 4.5rem;
+    height: 1.25rem;
+  }
+  

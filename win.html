@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="win.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="img-container">
+      <img class="img123" alt="" src="vector.svg" />
+      <img class="stars-image" src="group-5.svg" alt="star-img">
+    </div>
+    <div class="text-container">
+      <h1>HURRAY!!</h1>
+      <h1>YOU WON THE GAME<h1>
+    </div>
+    <button class="play-again" id="backToPlay">PLAY AGAIN</button>
+    <div class="popupButtonContainer">
+      <button id="mainButt" class="rules-btn" tabindex="1">RULES</button>
+      <div class="popupContent">
+        <h2>Game Rules</h2>
+        <ul>
+          <li>Rock can crush scissors.</li>
+          <li>Scissors can cut through paper.</li>
+          <li>Paper can cover rock.</li>
+          <li>If both players choose the same option (rock, paper, or scissors), it results in a tie.</li>
+        </ul>
+        <button id="closeButton">Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="win.js"></script>
+</body>
+
+</html>
